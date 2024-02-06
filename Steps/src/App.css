@@ -1,0 +1,32 @@
+.stepDiv {
+  margin-left: 40%;
+  display: flex;
+}
+.stepDiv span {
+  font-size: 35px;
+}
+
+.stepDiv .stepButton {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.countDiv {
+  margin-left: 39.5%;
+  display: flex;
+}
+.countDiv span {
+  font-size: 35px;
+}
+
+.countDiv .countButton {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.dateDiv {
+  margin-left: 37%;
+  font-size: 30px;
+}
