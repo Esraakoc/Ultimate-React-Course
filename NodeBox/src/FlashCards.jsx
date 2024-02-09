@@ -34,11 +34,12 @@ function FlashCards() {
         "What do we call an input element that is completely synchronised with state?",
       answer: "Controlled element",
     },
-  ];
+  ]; 
+   const [selectedId, setSelectedId] = useState(null);
   const handleClick = (id) => {
     setSelectedId(id !== selectedId ? id : null);
   };
-  const [selectedId, setSelectedId] = useState(null);
+
   return (
     <div className="flashcards">
       {questions.map((question) => (

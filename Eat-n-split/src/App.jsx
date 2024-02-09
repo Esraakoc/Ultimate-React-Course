@@ -57,7 +57,7 @@ function App() {
   }
   return (
     <div className="app">
-      <div className="sidebar">
+      <div className="sidebar"> 
         <Friends
           friends={initialFriends}
           selectedFriend={selectedFriend}

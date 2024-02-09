@@ -3,6 +3,12 @@ import "../App.css";
 import Button from "./Button";
 function Friend({friend, onSelection, selectedFriend}) {
   const isSelected = selectedFriend?.id === friend.id;
+  // const furkan = null;
+  // {
+  //   furkan?.map((furka) => {
+  //     return console.log(furka);
+  //   });
+  // }
   return (
     <li className={isSelected ? "selected" : ""}>
       <img

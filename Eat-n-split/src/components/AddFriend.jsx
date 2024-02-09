@@ -8,7 +8,7 @@ function AddFriend({onAddFriend}) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (!name || !img) return;
+    if (!name || !img) return; 
 
     const id = crypto.randomUUID();
     const newFriend = {
